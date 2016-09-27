@@ -271,7 +271,6 @@ def addAttributesDict(layer, vertexField, layerFields, graphDictionary):
                     attributesDictionary[field] = str(featureInstance[field])
                 except:
                     pass
-
         graphDictionary[key]['attributes'] = attributesDictionary
     return graphDictionary
 
