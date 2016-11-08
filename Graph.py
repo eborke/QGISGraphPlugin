@@ -3,7 +3,7 @@ import pickle
 import networkx as nx
 
 # QGIS Processing Script Parameters "##" indicates a parameter to QGIS
-##[Graph]=group
+##Graph=group
 ##Vector=vector
 ##Field=field Vector
 ##Output_File_Path=file
