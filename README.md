@@ -11,9 +11,9 @@ This sub-plugin of processing generates a graph data structure from a vector fil
 ## Installing
 Inside of QGIS open up the processing toolbox, and run "Add script from file" and choose the file "Graph.py". The script will then be accessible in the processing toolbox and found here: 
 
-'''
+```
 Scripts -> Graph -> Graph
-'''
+```
 ## Author
 
 * **Erik Borke**
