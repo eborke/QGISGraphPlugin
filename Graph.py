@@ -143,7 +143,7 @@ def findEdges(valueSet, boundsIndexDict, graphDict, features):
         bounds = boundsIndexDict[value1][0]
         rectangle1 = QgsRectangle(bounds[0], bounds[1], bounds[2], bounds[3])
 
-        for value2 in valueSet:
+        for value2 in valueSet2:
             index2 = boundsIndexDict[value2][1]
             tempBounds = boundsIndexDict[value2][0]
             rectangle2 = QgsRectangle(tempBounds[0], tempBounds[1], tempBounds[2], tempBounds[3])
